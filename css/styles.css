@@ -61,26 +61,19 @@ a {
 .contacts-info {
   text-align: center;
 }
-
 .contact-name, .contact-phone a {
   font-size: 16px;
   color: #0f680e;
 }
-
 .contact-name{
-  display: inline-block;
   vertical-align: top;
-  width: 89px;
+  width: 85px;
   text-align: initial;
 }
 .contact-phone{
-  display: inline-block;
   text-align: initial;
-  width: 140px;
-  
+  width: 140px; 
 }
-
-
 .button {
   background-color: #fec90c;
   color: #fff;
