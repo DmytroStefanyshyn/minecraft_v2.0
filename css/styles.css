@@ -17,11 +17,14 @@ img{
 a {
   text-decoration: none;
 }
-.clearfix:after {
+.clearfix:after, .row:after {
   content: '';
   width: 100%;
   display: block;
   clear: both;
+}
+.row {
+  margin: 0 -10px;
 }
 .wrapper{
   max-width: 990px;
@@ -56,16 +59,27 @@ a {
   padding-top: 5px;
 }
 .contacts-info {
-  min-height: 115px;
   text-align: center;
 }
-.contacts {
 
-}
 .contact-name, .contact-phone a {
   font-size: 16px;
   color: #0f680e;
 }
+
+.contact-name{
+  display: inline-block;
+  vertical-align: top;
+  width: 89px;
+  text-align: initial;
+}
+.contact-phone{
+  display: inline-block;
+  text-align: initial;
+  width: 140px;
+  
+}
+
 
 .button {
   background-color: #fec90c;
@@ -186,9 +200,12 @@ ul.menu > li > a{
   padding-top: 20px;
 }
 @media (min-width: 768px) {
-  .contacts-info > a img, .contacts, .buttons {
+  .contacts-info > a img, .contacts-info img, .contacts, .buttons {
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 15px;
+  }
+  .contacts-info {
+    text-align: center;
   }
   ul.menu li {
     display: inline-block;
