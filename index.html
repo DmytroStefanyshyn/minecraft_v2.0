@@ -83,19 +83,40 @@
     </div>
     <div class="main-container">
       <div class="wrapper">
-        <div class="left-bar">
-          <ul>Мир Minecraft
-            <li>- Блоки</li>
-            <li>- Мобы</li>
-            <li>- Структуры</li>
-            <li>- Биомы</li>
-            <li>- Миры</li>
+        <div class="side-bar col-1-4">
+          <div class="menu_opener">
+            <i class="icon-list">
+              <span></span>
+              <span></span>
+              <span></span>
+            </i>
+          </div>
+          <ul class="side-bar-menu">
+            <li class="button-dropdown"><a href="javascript:void(0)" class="dropdown-toggle">Мир Minecraft</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">- Блоки</a></li>
+                <li><a href="#">- Мобы</a></li>
+                <li><a href="#">- Структуры</a></li>
+                <li><a href="#">- Биомы</a></li>
+                <li><a href="#">- Миры</a></li>
+              </ul>
+            </li>
+            <li class="button-dropdown"><a href="javascript:void(0)" class="dropdown-toggle">Industrial craft</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">- Блоки</a></li>
+                <li><a href="#">- Мобы</a></li>
+                <li><a href="#">- Структуры</a></li>
+                <li><a href="#">- Биомы</a></li>
+                <li><a href="#">- Миры</a></li>
+              </ul>
+            </li>
+            <li><a href="#">OptiFine</a></li>
+            <li><a href="#">Forge</a></li>
+            <li><a href="#">TooManyItems</a></li>
+            <li><a href="#">RailCraft</a></li>
           </ul>
-          <ul>Industrial craft</ul>
-          <ul>OptiFine</ul>
-          <ul>Forge</ul>
-          <ul>TooManyItems</ul>
-          <ul>RailCraft</ul>
+          
+         
         </div>
         <div class="container">
           <div class="container-text">
@@ -156,21 +177,29 @@
           <div class="yellow-line-text">
             Подключайся и играй на наших серверах!
           </div>
-          <div class="yellow-line-phone inline">
-            <div class="yellow-line-phone-name inline">
-              Админ:<br><br>
-              По донату:
+          <div class="yellow-line-phones inline">
+            <div class="contact-item">
+              <p class="contact-name inline">
+                Админ:
+              </p>
+              <span class="contact-phone inline">
+                <a href="tel:+380683332210">
+                  +38(068) 333-22-10
+                </a><br>
+                <a href="tel:+380997505050">
+                  +38(099) 750-50-50
+                </a>
+              </span>
             </div>
-            <div class="yellow-line-phone-number inline">
-              <a href="tel:+380683332210">
-              +38(068) 333-22-10
-              </a><br>
-              <a href="tel:+380997505050">
-              +38(099) 750-50-50
-              </a><br>
-              <a href="tel:+380673322180">
-              067-33-22-180
-              </a>
+            <div class="contact-item">
+              <p class="contact-name inline">
+                По донату:
+              </p>
+              <span class="contact-phone inline">
+                <a href="tel:+380673322180">
+                  067-33-22-180
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -194,6 +223,7 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
   <script src="js/src.js" type="text/javascript"></script>
   </body>
 </html>
