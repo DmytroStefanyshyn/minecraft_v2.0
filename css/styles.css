@@ -172,7 +172,7 @@ ul.menu > li > a{
   left: 0;
 }
 .side-bar-menu > li{
-  
+  border-bottom: 1.5px solid #e7e7e7;
   font-size: 20px;
   list-style: none;
   cursor: pointer;
@@ -201,12 +201,10 @@ ul.side-bar-menu.active{
 
 .side-bar-menu > li > a {
   color: #000;
-  border-bottom: 1.5px solid #e7e7e7;
 }
 .side-bar-menu > li > a:hover {
-  background-color: #f1f1f1;
-  border-radius: 10px;
-  border: 2px solid #e7e7e7;  
+  font-size: 22px;
+  border-bottom: 3px solid #a9a9a9;  
 }
 .dropdown-menu li > a {
   color: #ff0000;
