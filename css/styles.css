@@ -39,14 +39,12 @@ a {
   display: inline-block;
 }
 .header-top {
-  width: 100%;
-  min-height: 45px;
   background-color: #37a14c;
   color: #fff;
   font-size: 16px;
+  padding: 10px;
 }
 .header-text {
-  min-height: 45px;
   display: inline-flex;
   align-items: center;
   width: 65%;
@@ -54,9 +52,8 @@ a {
 }
 .header-icons {
   float: right;
-  padding-top: 7px;
 }
-@media (max-width: 360px) {
+@media (max-width: 377px) {
   .header-icons, .header-text {
     float: none;
     text-align: center;
@@ -93,10 +90,14 @@ a {
 }
 .header {
   text-align: center;
-  min-height: 115px;
+  min-height: 95px;
+  padding: 10px;
 }
 .header-contacts {
   padding-bottom: 10px;
+}
+.contact-item {
+  padding-bottom: 5px;
 }
 .contact-name {
   font-size: 16px;
@@ -340,19 +341,21 @@ ul.side-bar-menu.active{
     width: 30%;
     display: block;
     float: left;
-    padding: 10px 10px;
+    padding: 0 10px;
   }
   .header-logo1 {
     width: 18%;
     display: block;
     float: left;
-    padding: 10px 10px 0 10px;
+    padding: 0 10px;
+
   }
   .headedr-buttons {
+    min-width: 145px;
     width: 18%;
     display: block;
     float: left;
-    padding: 10px 10px 0 10px;
+    padding: 0 10px;
   }
   .header-logo2 {
     width: 34%;
