@@ -278,10 +278,10 @@ ul.side-bar-menu.active{
 }
 .new-options-bg {
   background: linear-gradient(#329545, #45bc5c);
-  height: 90px;
+  min-height: 93px;
   padding: 13px 30px 12px 6px;
   font-size: 14px;
-  width: 232px;
+  max-width: 232px;
   border-bottom: 2px solid #57e974;
   text-align: left;
 }
@@ -348,7 +348,7 @@ ul.side-bar-menu.active{
     padding: 10px 10px 0 10px;
   }
   .buttons {
-    /*width: 16%;*/
+    width: 18%;
     display: block;
     float: left;
     padding: 10px 10px 0 10px;
@@ -383,12 +383,10 @@ ul.side-bar-menu.active{
     display: inline-block;
     text-align: left;
   }
-  .new-options {
-    text-align: center;
-  }
-  .new-options-container:nth-child(-n+2) {
-    display: inline-block;
-    padding-right: 11px;
+  .new-options-container {
+    width: 33.3%;
+    float: left;
+    padding: 0 10px;
   }
   .grey-line .wrapper img:nth-child(-n+3) {
     padding-right: 39px;
