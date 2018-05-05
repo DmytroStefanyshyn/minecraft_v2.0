@@ -95,7 +95,9 @@ a {
   text-align: center;
   min-height: 115px;
 }
-
+.header-contacts {
+  padding-bottom: 10px;
+}
 .contact-name {
   font-size: 16px;
   color: #0f680e;
@@ -111,7 +113,6 @@ a {
 }
 .contact-phone{
   text-align: initial;
-/*  width: 148px; */
 }
 .button {
   display: block;
@@ -335,25 +336,25 @@ ul.side-bar-menu.active{
   .header {
     text-align: left;
   }
-  .contacts {
+  .header-contacts {
     width: 30%;
     display: block;
     float: left;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px;
   }
-  .header > .wrapper > a {
+  .header-logo1 {
     width: 18%;
     display: block;
     float: left;
     padding: 10px 10px 0 10px;
   }
-  .buttons {
+  .headedr-buttons {
     width: 18%;
     display: block;
     float: left;
     padding: 10px 10px 0 10px;
   }
-  .header > .wrapper > img {
+  .header-logo2 {
     width: 34%;
     padding: 0 10px;
     top: 50%; 
