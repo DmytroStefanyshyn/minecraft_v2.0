@@ -29,7 +29,7 @@ a {
 .wrapper{
   max-width: 990px;
   margin: 0 auto;
-  padding: 0 10px; 
+  padding: 0 10px;
 }
 [href^="tel:"]{
   text-decoration: none;
@@ -49,14 +49,21 @@ a {
   min-height: 45px;
   display: inline-flex;
   align-items: center;
-  width: 50%;
+  width: 65%;
   padding: 5px 0 5px 0;
-  overflow: 
 }
 .header-icons {
   float: right;
   padding-top: 7px;
 }
+@media (max-width: 360px) {
+  .header-icons, .header-text {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+
 .header-icons a {
   margin-right: 5px;
 }
@@ -84,42 +91,40 @@ a {
   height: 28px;
   width: 28px;
 }
-.header > .wrapper > a {
-  display: inline-block;
-  height: 100%;
-}
-.header > .wrapper > a > img:nth-child(1) {
-  padding-top: 5px;
-}
-
 .header {
   text-align: center;
+  min-height: 115px;
 }
 
-.contact-name, .contact-phone a {
+.contact-name {
   font-size: 16px;
   color: #0f680e;
 }
+.contact-phone a  {
+  color: #0f680e;
+  font-size: 20px;
+}
 .contact-name{
   vertical-align: top;
-  width: 85px;
+  width: 81px;
   text-align: initial;
 }
 .contact-phone{
   text-align: initial;
-  width: 143px; 
+/*  width: 148px; */
 }
 .button {
   display: block;
   background-color: #fec90c;
   color: #fff;
   font-size: 16px;
-  padding: 11px;
+  padding: 9px;
   min-width: 145px;
   border-radius: 5px;
   margin-bottom: 10px;
-  box-shadow: inset 0 -3px 0 0 #293224;
+  box-shadow: inset 0 -2px 0 0 #293224;
   cursor: pointer;
+  text-align: center;
 }
 .skype a {
   background-image: url("../icons/skype.png");
@@ -131,9 +136,6 @@ a {
 .menu {
   min-height: 45px;
   background: linear-gradient(#51c066, #309444); 
-}
-.menu > .wrapper {
-  padding: 0 0;
 }
 ul.menu li{
   list-style: none;
@@ -330,12 +332,34 @@ ul.side-bar-menu.active{
   padding-top: 20px;
 }
 @media (min-width: 768px) {
-  .header > a img, .header img, .contacts, .buttons {
-    display: inline-block;
-    padding-left: 15px;
+  .header {
+    text-align: left;
+  }
+  .contacts {
+    width: 30%;
+    display: block;
+    float: left;
+    padding: 10px 10px 0 10px;
+  }
+  .header > .wrapper > a {
+    width: 18%;
+    display: block;
+    float: left;
+    padding: 10px 10px 0 10px;
+  }
+  .buttons {
+    /*width: 16%;*/
+    display: block;
+    float: left;
+    padding: 10px 10px 0 10px;
+  }
+  .header > .wrapper > img {
+    width: 34%;
+    padding: 0 10px;
+    top: 50%; 
   }
   .skype {
-    text-align: left;
+    padding-top: 5px;
   }
   .menu_opener {
     display: none;
