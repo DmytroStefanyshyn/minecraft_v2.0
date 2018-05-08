@@ -353,16 +353,16 @@ ul.side-bar-menu.active{
     padding: 0 10px;
 
   }
-  .headedr-buttons {
+  .header-buttons {
     min-width: 145px;
     width: 18%;
     display: block;
     float: left;
-    padding: 0 10px;
+    padding: 10px 10px 0 10px;
   }
   .header-logo2 {
     width: 34%;
-    padding: 0 10px;
+    padding: 20px 10px 0 10px;
     top: 50%; 
   }
   .skype {
